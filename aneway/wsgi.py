@@ -1,5 +1,5 @@
 """
-WSGI config for hexlet_django_blog project.
+WSGI config for aneway project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'hexlet_django_blog.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'aneway.settings')
 
 application = get_wsgi_application()
