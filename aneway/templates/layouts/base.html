@@ -1,0 +1,65 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Aneway — Go For Good Memories</title>
+  <link rel="stylesheet" href="{% static 'designs/base.css' %}"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+</head>
+<body>
+  <header>
+    <h1>Aneway</h1>
+    <p>Fight your boredom with hundreds of mostly free local events!</p>
+  </header>
+  <nav>
+    <a href="#all">All Events</a>
+    <a href="#today">Today</a>
+    <a href="#weekend">Weekend</a>
+    <a href="#categories">Categories</a>
+    <a href="#submit">Submit Event</a>
+  </nav>
+  <main>
+    <div class="event-list">
+      <div class="event-card">
+        <div class="event-title">Morning Yoga for Everyone</div>
+        <div class="tags">
+          <span class="tag sport">Sport</span>
+          <span class="tag free">Free</span>
+        </div>
+        <div class="event-desc">Start your day with a refreshing outdoor yoga session. Open for all skill levels. Mats provided.</div>
+        <div class="event-meta">
+          <span><span class="icon"></span>Sat, 26 Jul — 9:00 AM</span>
+          <span>Central Park, Lawn 3</span>
+        </div>
+      </div>
+      <div class="event-card">
+        <div class="event-title">DIY Birdhouse: Family Master-Class</div>
+        <div class="tags">
+          <span class="tag master">Master-class</span>
+          <span class="tag free">Free</span>
+        </div>
+        <div class="event-desc">Build and decorate a birdhouse with eco-materials. All ages welcome, workshop leader: Maria Ivanova.</div>
+        <div class="event-meta">
+          <span><span class="icon"></span>Sun, 27 Jul — 12:00 PM</span>
+          <span>Children's Art Center</span>
+        </div>
+      </div>
+      <div class="event-card">
+        <div class="event-title">Outdoor Cinema: 'The Pink Bird'</div>
+        <div class="tags">
+          <span class="tag film">Film Screening</span>
+          <span class="tag free">Free</span>
+        </div>
+        <div class="event-desc">Enjoy a family-friendly film under the open sky. Free popcorn for early birds!</div>
+        <div class="event-meta">
+          <span><span class="icon"></span>Fri, 25 Jul — 8:45 PM</span>
+          <span>City Square</span>
+        </div>
+      </div>
+    </div>
+    <button class="cta">See More Events</button>
+  </main>
+</body>
+</html>
