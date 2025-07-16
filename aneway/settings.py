@@ -37,6 +37,11 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'aneway',
+    'aneway.users',
+    'aneway.events',
+    'aneway.hosts',
+
 ]
 
 MIDDLEWARE = [
